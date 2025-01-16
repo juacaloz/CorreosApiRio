@@ -1,0 +1,12 @@
+dependencies {
+    implementation project(':model')
+    implementation 'org.springframework.boot:spring-boot-starter:3.2.4'
+    implementation 'org.springframework:spring-context'
+    implementation 'com.microsoft.graph:microsoft-graph:5.80.0'
+    implementation 'com.azure:azure-identity:1.11.0'
+    implementation 'org.projectlombok:lombok:1.18.28'
+    implementation 'commons-io:commons-io:20030203.000550'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.springframework:spring-web:6.1.6'
+}
